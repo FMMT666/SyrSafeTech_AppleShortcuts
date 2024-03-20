@@ -23,17 +23,17 @@ An iOS or macOS device with [Apple Shortcuts][3] installed.
 ---
 ## Syr Profile Changer
 
-Download:
-[Syr SafeTech Profile Control.shortcut](https://github.com/FMMT666/SyrSafeTech_AppleShortcuts\Syr%20SafeTech%20Profile%20Control.shortcut)
-
-
 [...]
+
+Download: [Syr SafeTech Profile Control](https://www.icloud.com/shortcuts/b41bf533de4a477785dd626bb2524bc8)
+
 
 ---
 ## Syr Reset Alarm
 
-Download:
-[Syr SafeTech Clear Alarm.shortcut](https://github.com/FMMT666/SyrSafeTech_AppleShortcuts\Syr%20SafeTech%20Clear%20Alarm.shortcut)
+[...]
+
+Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a3487932606840a5b388c7f705d452f7)
 
 
 [...]
@@ -45,9 +45,13 @@ Download:
 ### CHANGES 2024/03/XX:
     - initial commit of profile change Shortcut
     - initial commit of alarm reset Shortcut
+    - decided to use the iCloud links instead of local links
 
 ---
 ## TODO
+    - docs
+    - video
+    - close valve Shortcut
     - yet faster version which does not read out the profiles, but just activates one;
       would take only about 2s then
 
