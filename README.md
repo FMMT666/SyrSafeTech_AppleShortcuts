@@ -16,14 +16,16 @@ Also lookout for a Python based logger & control app [right here][2].
 ---
 ## Requirements
 
-An iOS or macOS device with [Apple Shortcuts][3] installed.
+  - An iOS or macOS device with [Apple Shortcuts][3] installed.
+  - A local or VPN connection to the network the Syr is in.
 
-[...]
+Notice that is is _not_ a "cloud communication".
 
 ---
 ## Syr Profile Changer
 
 [...]
+
 Example 1:
 
 https://github.com/FMMT666/SyrSafeTech_AppleShortcuts/assets/3057791/0191dca0-d029-4da3-8d65-86593a3e40f0
@@ -41,6 +43,15 @@ Download: [Syr SafeTech Profile Control](https://www.icloud.com/shortcuts/b41bf5
 
 [...]
 
+Example 1, no alarm occured:
+
+https://github.com/FMMT666/SyrSafeTech_AppleShortcuts/assets/3057791/22afa332-270e-4cb8-99f7-15c8a9af4690
+
+Example 2, clear alarm and change profile afterwards.  
+This would take several minutes with the Syr App!
+
+https://github.com/FMMT666/SyrSafeTech_AppleShortcuts/assets/3057791/ebff0219-8865-415f-bbbc-7b92ffb44d6d
+
 Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a3487932606840a5b388c7f705d452f7)
 
 
@@ -55,6 +66,7 @@ Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a348793260
     - initial commit of alarm reset Shortcut
     - decided to use the iCloud links instead of local links
     - testing video link in the readme
+    - added some videos, bc why not
 
 ---
 ## TODO
