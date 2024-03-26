@@ -17,14 +17,30 @@ Also lookout for a Python based logger & control app [right here][2].
 ## Requirements
 
   - An iOS or macOS device with [Apple Shortcuts][3] installed.
-  - A local or VPN connection to the network the Syr is in.
+  - A local or VPN connection to the network the Syr is in.  
+    Notice that is is _not_ a "cloud communication".
 
-Notice that is is _not_ a "cloud communication".
+Upon activating any of the shortcuts for the first time, you need to enter the IP address of your
+Syr SafeTech Connect. Do only enter the IP address, without any newline or other characters.
+
+The IP address needs to be in the 1st text field, right after the comment section:
+
+![](Shortcut_IPaddress.png)
+
+
 
 ---
 ## Syr Profile Changer
 
-[...]
+This shortcut reads the name and number of the currently activated profile and displays it.  
+You can either stop at this point or continue to select the profile which should be activated.
+
+All available profiles are read and displayed in a list. The more profiles your Syr has (max eight),
+the longer this step takes.
+
+The response to the change profile command is presented in raw format, for clarity. After that, the
+active profile is again read out and displayed.
+
 
 Example 1:
 
@@ -70,6 +86,7 @@ Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a348793260
 
 ---
 ## TODO
+    - clear alarm: last two displayed messages should not have a "cancel" option
     - docs
     - close valve Shortcut
     - yet faster version which does not read out the profiles, but just activates one;
