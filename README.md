@@ -57,7 +57,18 @@ Download: [Syr SafeTech Profile Control](https://www.icloud.com/shortcuts/b41bf5
 ---
 ## Syr Reset Alarm
 
-[...]
+This shortcat can clear an alarm. It will also automatically open the valve.  
+Usually needed when you (again) forgot to disable the "absent profile" and used too much water.
+
+It reads out and displays the alarm condition. In case of an alarm, you either can abort the shortcut
+here, or proceed to clear the alarm and open the valve.
+
+> Except for the first message box dialog ["CLEAR ALARM AND OPEN VALVE?"], it is _not_ recommended to
+> cancel any of the next two dialog boxes, as this might not clear the "admin mode" (required to reset the alarm).
+
+Nothing dramatic, but keeping the Syr in admin mode is not that nice.
+
+I will change the dialog options in the next release (if I manage to find an option in Apple Shortcuts).
 
 Example 1, no alarm occured:
 
@@ -71,9 +82,6 @@ https://github.com/FMMT666/SyrSafeTech_AppleShortcuts/assets/3057791/ebff0219-88
 Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a3487932606840a5b388c7f705d452f7)
 
 
-[...]
-
-
 ---
 ## NEWS
 
@@ -83,10 +91,10 @@ Download: [Syr SafeTech Clear Alarm](https://www.icloud.com/shortcuts/a348793260
     - decided to use the iCloud links instead of local links
     - testing video link in the readme
     - added some videos, bc why not
+    - added seom descriptions
 
 ---
 ## TODO
-    - clear alarm: last two displayed messages should not have a "cancel" option
     - docs
     - close valve Shortcut
     - yet faster version which does not read out the profiles, but just activates one;
